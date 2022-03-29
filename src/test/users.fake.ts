@@ -1,0 +1,60 @@
+import User from "../@Types/User";
+
+export const users: User[] = [
+  {
+    // _id: "1",
+    firstName: "Bayrem",
+    lastName: "Sayeh",
+    password: "123456789",
+    phone: "+216 52368419",
+    email: "bayremsayeh98@gmail.com",
+  },
+  {
+    // _id: "1",
+    firstName: "Bayrem",
+    lastName: "Sayeh",
+    password: "123456789",
+    phone: "+216 52368419",
+    email: "bayremsayeh98@gmail.com",
+  },
+  {
+    // _id: "1",
+    firstName: "Bayrem",
+    lastName: "Sayeh",
+    password: "123456789",
+    phone: "+216 52368419",
+    email: "bayremsayeh98@gmail.com",
+  },
+  {
+    // _id: "1",
+    firstName: "Bayrem",
+    lastName: "Sayeh",
+    password: "123456789",
+    phone: "+216 52368419",
+    email: "bayremsayeh98@gmail.com",
+  },
+  {
+    // _id: "1",
+    firstName: "Bayrem",
+    lastName: "Sayeh",
+    password: "123456789",
+    phone: "+216 52368419",
+    email: "bayremsayeh98@gmail.com",
+  },
+  {
+    // _id: "1",
+    firstName: "Bayrem",
+    lastName: "Sayeh",
+    password: "123456789",
+    phone: "+216 52368419",
+    email: "bayremsayeh98@gmail.com",
+  },
+  {
+    // _id: "1",
+    firstName: "Bayrem",
+    lastName: "Sayeh",
+    password: "123456789",
+    phone: "+216 52368419",
+    email: "bayremsayeh98@gmail.com",
+  },
+];
