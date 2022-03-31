@@ -23,5 +23,10 @@
     "users.delete.dialog.title": "Delete User",
     "users.delete.dialog.text": "Do you want delete this user",
     "users.add.dialog.title": "User Add",
-    "page.users.add": "Add User"
+    "page.users.add": "Add User",
+    "login.title":"Login page for Customer",
+    "login.subtitle":"Put your address mail!",
+    "login.email":"Email",
+    "login.pass":"Password",
+    "login.btn":"Connexion"
 }

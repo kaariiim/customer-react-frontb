@@ -105,7 +105,7 @@ const CustomerEdit = ({ customer, refresh }: CustomerEditPropsType) => {
             </FormGroup>
             <FormGroup floating>
               <Input
-                value={status}
+                label={status}
                 id="status"
                 name="status"
                 type="text"

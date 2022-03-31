@@ -113,7 +113,7 @@ const CustomerAdd = (props: CustomerAddPropsType) => {
             </FormGroup>
             <FormGroup floating>
               <Input
-                value={status}
+                label={status}
                 id="status"
                 name="status"
                 type="select"
