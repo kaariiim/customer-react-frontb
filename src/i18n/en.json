@@ -18,6 +18,7 @@
     "user.lastName": "Lastname",
     "user.email": "Email",
     "user.phone": "Phone",
+    "user.password": "Password",
     "user.actions": "Actions",
     "users.edit.dialog.title": "Edit User",
     "users.delete.dialog.title": "Delete User",

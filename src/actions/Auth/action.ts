@@ -7,7 +7,7 @@ export function login(
   fallback: () => void
 ) {
   axios
-    .post("http://localhost:5000/auth/login", {
+    .post("http://localhost:3000/auth/login", {
       username: email,
       password: pass,
     })

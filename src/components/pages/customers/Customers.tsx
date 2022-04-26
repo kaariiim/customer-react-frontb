@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { FormattedMessage } from "react-intl";
-import { ButtonGroup, Table } from "reactstrap";
+import { ButtonGroup, Container, Table } from "reactstrap";
 import CustomerEdit from "./CustomerEdit";
 import CustomerAdd from "./CustomerAdd";
 import CustomerDelete from "./Customer.Delete";
@@ -17,63 +17,65 @@ const Customers = () => {
   }, []);
   return (
     <>
-      <div className="d-flex justify-content-between">
-        <FormattedMessage tagName="h1" id="page.title.customers" />
-        <CustomerAdd refresh={() => getCustomers(setCustomers)} />
-      </div>
-      <Table bordered hover responsive striped>
-        <thead>
-          <tr>
-            <th>
-              <FormattedMessage id="customer.fullname" />
-            </th>
-            <th>
-              <FormattedMessage id="customer.age" />
-            </th>
-            <th>
-              <FormattedMessage id="customer.birthdate" />
-            </th>
-            <th>
-              <FormattedMessage id="customer.status" />
-            </th>
-            <th>
-              <FormattedMessage id="customer.actions" />
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          {customers.length ? (
-            customers.map((customer, i) => (
-              <tr key={i}>
-                <td scope="row">{customer.fullname}</td>
-                <td>{customer.age}</td>
-                <td>{customer.birthdate}</td>
-                <td>{customer.status}</td>
-                <td>
-                  <ButtonGroup>
-                    <CustomerEdit
-                      customer={customer}
-                      refresh={() => getCustomers(setCustomers)}
-                    />
-                    <CustomerDelete
-                      customer={customer}
-                      refresh={() => getCustomers(setCustomers)}
-                    />
-                  </ButtonGroup>
+      <Container>
+        <div className="d-flex justify-content-between">
+          <FormattedMessage tagName="h1" id="page.title.customers" />
+          <CustomerAdd refresh={() => getCustomers(setCustomers)} />
+        </div>
+        <Table bordered hover responsive striped>
+          <thead>
+            <tr>
+              <th>
+                <FormattedMessage id="customer.fullname" />
+              </th>
+              <th>
+                <FormattedMessage id="customer.age" />
+              </th>
+              <th>
+                <FormattedMessage id="customer.birthdate" />
+              </th>
+              <th>
+                <FormattedMessage id="customer.status" />
+              </th>
+              <th>
+                <FormattedMessage id="customer.actions" />
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {customers.length ? (
+              customers.map((customer, i) => (
+                <tr key={i}>
+                  <td scope="row">{customer.fullname}</td>
+                  <td>{customer.age}</td>
+                  <td>{customer.birthdate}</td>
+                  <td>{customer.status}</td>
+                  <td>
+                    <ButtonGroup>
+                      <CustomerEdit
+                        customer={customer}
+                        refresh={() => getCustomers(setCustomers)}
+                      />
+                      <CustomerDelete
+                        customer={customer}
+                        refresh={() => getCustomers(setCustomers)}
+                      />
+                    </ButtonGroup>
+                  </td>
+                </tr>
+              ))
+            ) : (
+              <tr>
+                <td colSpan={5} className="text-center p-5">
+                  <FontAwesomeIcon icon={faBoxOpen} size="4x" />
+                  <br />
+                  <FormattedMessage id="page.users.no-data" />
                 </td>
               </tr>
-            ))
-          ) : (
-            <tr>
-              <td colSpan={5} className="text-center p-5">
-                <FontAwesomeIcon icon={faBoxOpen} size="4x" />
-                <br />
-                <FormattedMessage id="page.users.no-data" />
-              </td>
-            </tr>
-          )}
-        </tbody>
-      </Table>
+            )}
+          </tbody>
+        </Table>
+      </Container>
     </>
   );
 };

@@ -3,7 +3,7 @@ import Customer from "../../@Types/Customer";
 
 export function getCustomers(callback: (data: Customer[]) => void) {
   axios
-    .get("http://localhost:5000/customer")
+    .get("http://localhost:3000/customer")
     .then(({ data }) => {
       callback(data);
     })
@@ -14,7 +14,7 @@ export function getCustomers(callback: (data: Customer[]) => void) {
 
 export function addCustomer(customer: Customer, callback: () => void) {
   axios
-    .post("http://localhost:5000/customer", customer)
+    .post("http://localhost:3000/customer", customer)
     .then(() => {
       callback();
     })
@@ -25,7 +25,7 @@ export function addCustomer(customer: Customer, callback: () => void) {
 
 export function editCustomers(customer: Customer, callback: () => void) {
   axios
-    .put(`http://localhost:5000/customer/${customer._id}`, customer)
+    .put(`http://localhost:3000/customer/${customer._id}`, customer)
     .then(() => {
       callback();
     })
@@ -36,7 +36,7 @@ export function editCustomers(customer: Customer, callback: () => void) {
 
 export function deleteCustomers(customer: Customer, callback: () => void) {
   axios
-    .delete(`http://localhost:5000/customer/${customer._id}`)
+    .delete(`http://localhost:3000/customer/${customer._id}`)
     .then(() => {
       callback();
     })
