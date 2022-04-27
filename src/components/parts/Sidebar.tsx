@@ -1,5 +1,7 @@
 import { ProSidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
 import "react-pro-sidebar/dist/css/styles.css";
+import { Link } from "react-router-dom";
+import { SidebarData } from "./SidebarData";
 
 const Sidebar = () => {
   return (
@@ -21,10 +23,20 @@ const Sidebar = () => {
             <MenuItem>Bugatti</MenuItem>
             <MenuItem>Ferrari</MenuItem>
             <MenuItem>Lamborghini</MenuItem>
-            <MenuItem>Rolls-Royce Motor Cars</MenuItem>
+            <MenuItem>Rolls-Royce</MenuItem>
           </SubMenu>
         </Menu>
       </ProSidebar>
+      {SidebarData.map((item, index) => {
+        return (
+          <li key={index} className={item.cName}>
+            <Link to={item.path}>
+              {item.icon}
+              <span>{item.title}</span>
+            </Link>
+          </li>
+        );
+      })}
       ;
     </>
   );

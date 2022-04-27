@@ -1,5 +1,10 @@
 import Sidebar from "./parts/Sidebar";
 import Navbard from "./parts/Navbar";
+import { Container } from "reactstrap";
+import { Route, Routes } from "react-router-dom";
+import Users from "./pages/users/Users";
+import Customers from "./pages/customers/Customers";
+import AstonMartin from "./pages/AstonMartin";
 
 const Dashboard = () => {
   return (
@@ -11,7 +16,16 @@ const Dashboard = () => {
         <div className=" col-md-2 r2 a3">
           <Sidebar />
         </div>
-        <div className=" col-md-2 r2 a3"></div>
+        <Container fluid>
+          <main>
+            <Routes>
+              <Route path="" element={<Users />} />
+              <Route path="users" element={<Users />} />
+              <Route path="cutomers" element={<Customers />} />
+              <Route path="astonmartin" element={<AstonMartin />} />
+            </Routes>
+          </main>
+        </Container>
       </div>
     </div>
   );
