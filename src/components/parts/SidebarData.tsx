@@ -1,15 +1,9 @@
-import {
-  faUsers,
-  faCalendar,
-  faClipboard,
-  faBook,
-  faCertificate,
-} from "@fortawesome/free-solid-svg-icons";
+import { faUsers, faCar } from "@fortawesome/free-solid-svg-icons";
 
 export const SidebarData = [
   {
     title: "User",
-    path: "/",
+    path: "/users",
     icon: faUsers,
     cName: "nav-text",
   },
@@ -21,62 +15,62 @@ export const SidebarData = [
   },
   {
     title: "Porsche",
-    path: "/all models/porsche",
-    icon: faUsers,
+    path: "porsche",
+    icon: faCar,
     cName: "nav-text",
   },
   {
     title: "Mercedes Benz",
     path: "/all models/mercedes benz",
-    icon: faUsers,
+    icon: faCar,
     cName: "nav-text",
   },
   {
     title: "Lotus Cars",
     path: "/all models/lotus cars",
-    icon: faUsers,
+    icon: faCar,
     cName: "nav-text",
   },
   {
     title: "Maserati",
     path: "/all models/maserati",
-    icon: faUsers,
+    icon: faCar,
     cName: "nav-text",
   },
   {
     title: "Aston Martin",
-    path: "/all models/aston martin",
-    icon: faUsers,
+    path: "/aston martin",
+    icon: faCar,
     cName: "nav-text",
   },
   {
     title: "Bentley",
     path: "/all models/bentley",
-    icon: faUsers,
+    icon: faCar,
     cName: "nav-text",
   },
   {
     title: "Bugatti",
     path: "/all models/bugatti",
-    icon: faUsers,
+    icon: faCar,
     cName: "nav-text",
   },
   {
     title: "Ferrari",
     path: "/all models/ferrari",
-    icon: faUsers,
+    icon: faCar,
     cName: "nav-text",
   },
   {
     title: "Lamborghini",
     path: "/all models/lamborghini",
-    icon: faUsers,
+    icon: faCar,
     cName: "nav-text",
   },
   {
     title: "Rolls-Royce",
     path: "/all models/rolls-royce",
-    icon: faUsers,
+    icon: faCar,
     cName: "nav-text",
   },
 ];

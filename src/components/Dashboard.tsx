@@ -20,9 +20,9 @@ const Dashboard = () => {
           <main>
             <Routes>
               <Route path="" element={<Users />} />
-              <Route path="users" element={<Users />} />
-              <Route path="cutomers" element={<Customers />} />
-              <Route path="astonmartin" element={<AstonMartin />} />
+              <Route path="User" element={<Users />} />
+              <Route path="Customer" element={<Customers />} />
+              <Route path="Aston Martin" element={<AstonMartin />} />
             </Routes>
           </main>
         </Container>

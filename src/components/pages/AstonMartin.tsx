@@ -2,7 +2,7 @@ import React from "react";
 
 function AstonMartin() {
   return (
-    <div className="aston martin">
+    <div className="astonmartin">
       <h1>Aston Martin bayremmm</h1>
     </div>
   );
