@@ -2,6 +2,7 @@
 .a3 {
   height: 100vh;
 }
+
 body {
   background-color: rgba(214, 158, 74, 0.541);
 }
@@ -16,4 +17,11 @@ body {
     url("../public/kk.png") no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.c1{
+  width: 1000px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }

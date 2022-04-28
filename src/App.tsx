@@ -1,16 +1,13 @@
 import "./App.css";
 import Dashboard from "./components/Dashboard";
 import Users from "./components/pages/users/Users";
-import Customers from "./components/pages/customers/Customers";
-import AstonMartin from "./components/pages/AstonMartin";
-import Login from "./components/Login";
-import Forget from "./components/ForgetPassword";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Dashboard />
-    </>
+    </div>
   );
 }
 

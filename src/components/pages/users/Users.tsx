@@ -67,7 +67,7 @@ const Users = () => {
               ))
             ) : (
               <tr>
-                <td colSpan={5} className="text-center p-5">
+                <td colSpan={4} className="text-center p-5">
                   <FontAwesomeIcon icon={faBoxOpen} size="4x" />
                   <br />
                   <FormattedMessage id="page.users.no-data" />
