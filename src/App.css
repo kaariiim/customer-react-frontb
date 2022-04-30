@@ -14,7 +14,7 @@ body {
 
 .screen {
   background: linear-gradient(to bottom, #d439b385, #1d2571aa),
-    url("../public/kk.png") no-repeat;
+    url("../public/img/kk.png") no-repeat;
   background-position: center;
   background-size: cover;
 }

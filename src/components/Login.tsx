@@ -19,7 +19,7 @@ export default function Login() {
           md={6}
           className="login text-center p-5 d-flex flex-column justify-content-center"
         >
-          <h1>Please sign in to start watching</h1>
+          <h1>Please sign in to start</h1>
           <Form inline>
             <FormGroup floating>
               <Input
