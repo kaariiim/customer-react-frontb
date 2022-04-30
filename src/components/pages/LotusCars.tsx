@@ -3,7 +3,7 @@ import { Card, CardBody, CardImg, CardText, CardTitle } from "reactstrap";
 
 function LotusCars() {
   return (
-    <div className="lotus cars">
+    <div className="lotuscars">
       <Card>
         <CardImg
           alt="image"

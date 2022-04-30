@@ -3,7 +3,7 @@ import { Card, CardBody, CardImg, CardText, CardTitle } from "reactstrap";
 
 function MercedesBenz() {
   return (
-    <div className="mercedes benz">
+    <div className="mercedesbenz">
       <Card>
         <CardImg
           alt="image"

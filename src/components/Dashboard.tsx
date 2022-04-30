@@ -26,16 +26,16 @@ const Dashboard = () => {
         <div className="col-12 col-md-10 c1">
           <Routes>
             <Route path="/" element={<Users />} />
-            <Route path="/aston martin" element={<AstonMartin />} />
+            <Route path="/astonmartin" element={<AstonMartin />} />
             <Route path="/bentley" element={<Bentley />} />
             <Route path="/bugatti" element={<Bugatti />} />
             <Route path="/ferrari" element={<Ferrari />} />
             <Route path="/lamborghini" element={<Lamborghini />} />
-            <Route path="/lotus cars" element={<LotusCars />} />
+            <Route path="/lotuscars" element={<LotusCars />} />
             <Route path="/maserati" element={<Maserati />} />
-            <Route path="/mercedes benz" element={<MercedesBenz />} />
+            <Route path="/mercedesbenz" element={<MercedesBenz />} />
             <Route path="/porsche" element={<Porsche />} />
-            <Route path="/rolls royce" element={<RollsRoyce />} />
+            <Route path="/rollsroyce" element={<RollsRoyce />} />
           </Routes>
         </div>
       </div>
