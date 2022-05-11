@@ -3,14 +3,10 @@ import { Card, CardBody, CardImg, CardText, CardTitle } from "reactstrap";
 
 function MercedesBenz() {
   return (
-    <div className="mercedesbenz">
+    <div>
       <Card>
-        <CardImg
-          alt="image"
-          src="//public/img/mercedes.avif"
-          top
-          width="100%"
-        />
+      <div className="mercedesbenz"></div>
+       
         <CardBody>
           <CardTitle tag="h5">Mercedes Benz car</CardTitle>
           <CardText>
