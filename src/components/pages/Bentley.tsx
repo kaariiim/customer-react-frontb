@@ -1,16 +1,11 @@
 import React from "react";
-import { Card, CardBody, CardImg, CardText, CardTitle } from "reactstrap";
+import { Card, CardBody, CardText, CardTitle } from "reactstrap";
 
 function Bentley() {
   return (
     <div className="bentley">
       <Card>
-        <CardImg
-          alt="image"
-          src="//public/img/Bentley-car.avif"
-          top
-          width="100%"
-        />
+        <div className="bentley"></div>
         <CardBody>
           <CardTitle tag="h5">Bentley car</CardTitle>
           <CardText>

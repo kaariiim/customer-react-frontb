@@ -1,9 +1,8 @@
 import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
-import "react-pro-sidebar/dist/css/styles.css";
 
 const Sidebar = () => {
   return (
-    <>
+    <div className="sidebar">
       <ProSidebar>
         <h1>The Top Cars</h1>
         <Menu iconShape="square">
@@ -20,7 +19,7 @@ const Sidebar = () => {
           <MenuItem>Rolls-Royce</MenuItem>
         </Menu>
       </ProSidebar>
-    </>
+    </div>
   );
 };
 export default Sidebar;

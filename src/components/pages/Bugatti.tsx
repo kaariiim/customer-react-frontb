@@ -5,7 +5,7 @@ function Bugatti() {
   return (
     <div className="bugatti">
       <Card>
-        <CardImg alt="image" src="//public/img/Bugatti.avif" top width="100%" />
+        <div className="bugatti"></div>
         <CardBody>
           <CardTitle tag="h5">Bugatti car</CardTitle>
           <CardText>

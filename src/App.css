@@ -1,6 +1,11 @@
-
-.a3 {
-  height: 100vh;
+.sidebar {
+  background-color: black;
+  color: plum;
+  height: 100%;
+  width: 100%;
+  font-size: x-large;
+  padding: 20px;
+  
 }
 
 body {
@@ -19,9 +24,63 @@ body {
   background-size: cover;
 }
 
-.c1{
-  width: 1000px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+.astonmartin {
+  background: 
+  url("../public/img/Aston-Martin-car-.avif") no-repeat;
+  height: 690px;
+  width: 100%;
+}
+.bentley {
+  background: 
+  url("../public/img/Bentley-car.avif") no-repeat;
+  height: 490px;
+  width: 100%;
+}
+.bugatti {
+  background: 
+  url("../public/img/Bugatti.avif") no-repeat;
+  height: 490px;
+  width: 100%;
+}
+.astonmartin {
+  background: 
+  url("../public/img/Aston-Martin-car-.avif") no-repeat;
+  height: 690px;
+  width: 100%;
+}
+.astonmartin {
+  background: 
+  url("../public/img/Aston-Martin-car-.avif") no-repeat;
+  height: 690px;
+  width: 100%;
+}
+.astonmartin {
+  background: 
+  url("../public/img/Aston-Martin-car-.avif") no-repeat;
+  height: 690px;
+  width: 100%;
+}
+.astonmartin {
+  background: 
+  url("../public/img/Aston-Martin-car-.avif") no-repeat;
+  height: 690px;
+  width: 100%;
+}
+.astonmartin {
+  background: 
+  url("../public/img/Aston-Martin-car-.avif") no-repeat;
+  height: 690px;
+  width: 100%;
+}
+.astonmartin {
+  background: 
+  url("../public/img/Aston-Martin-car-.avif") no-repeat;
+  height: 690px;
+  width: 100%;
+}
+.astonmartin {
+  background: 
+  url("../public/img/Aston-Martin-car-.avif") no-repeat;
+  height: 690px;
+  width: 100%;
 }

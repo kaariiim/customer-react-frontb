@@ -1,16 +1,11 @@
 import React from "react";
-import { Card, CardBody, CardImg, CardText, CardTitle } from "reactstrap";
+import { Card, CardBody, CardText, CardTitle } from "reactstrap";
 
 function AstonMartin() {
   return (
-    <div className="astonmartin">
+    <div>
       <Card>
-        <CardImg
-          alt="image"
-          src="//public/img/Aston-Martin-car-.avif"
-          top
-          width="100%"
-        />
+        <div className="astonmartin"></div>
         <CardBody>
           <CardTitle tag="h5">Aston Martin</CardTitle>
           <CardText>

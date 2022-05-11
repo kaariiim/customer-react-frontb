@@ -16,26 +16,26 @@ import RollsRoyce from "./pages/RollsRoyce";
 const Dashboard = () => {
   return (
     <div className="container fluid">
-      <div className="row">
+      <div className="row g-0">
         <div className="col-12 col-md-12 a1">
           <Navbard />
         </div>
-        <div className="col-12 col-md-2 a3">
+        <div className="col-12 col-md-3">
           <Sidebar />
         </div>
-        <div className="col-12 col-md-10 c1">
+        <div className="col-12 col-md-9">
           <Routes>
-            <Route path="/" element={<Users />} />
-            <Route path="/astonmartin" element={<AstonMartin />} />
-            <Route path="/bentley" element={<Bentley />} />
-            <Route path="/bugatti" element={<Bugatti />} />
-            <Route path="/ferrari" element={<Ferrari />} />
-            <Route path="/lamborghini" element={<Lamborghini />} />
-            <Route path="/lotuscars" element={<LotusCars />} />
-            <Route path="/maserati" element={<Maserati />} />
-            <Route path="/mercedesbenz" element={<MercedesBenz />} />
-            <Route path="/porsche" element={<Porsche />} />
-            <Route path="/rollsroyce" element={<RollsRoyce />} />
+            <Route path="/" element={<AstonMartin />} />
+            <Route path="astonmartin" element={<AstonMartin />} />
+            <Route path="bentley" element={<Bentley />} />
+            <Route path="bugatti" element={<Bugatti />} />
+            <Route path="ferrari" element={<Ferrari />} />
+            <Route path="lamborghini" element={<Lamborghini />} />
+            <Route path="lotuscars" element={<LotusCars />} />
+            <Route path="maserati" element={<Maserati />} />
+            <Route path="mercedesbenz" element={<MercedesBenz />} />
+            <Route path="porsche" element={<Porsche />} />
+            <Route path="rollsroyce" element={<RollsRoyce />} />
           </Routes>
         </div>
       </div>

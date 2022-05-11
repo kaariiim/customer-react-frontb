@@ -49,7 +49,7 @@ export default function Navbard() {
                     </DropdownMenu>
                   </UncontrolledDropdown>
                 </Nav>
-                <DropdownToggle>Logout</DropdownToggle>
+                <DropdownToggle>avatar</DropdownToggle>
               </Collapse>
             </Navbar>
           </div>
