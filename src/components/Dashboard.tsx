@@ -1,7 +1,6 @@
 import Sidebar from "./parts/Sidebar";
 import Navbard from "./parts/Navbar";
 import { Route, Routes } from "react-router-dom";
-import Users from "./pages/users/Users";
 import Porsche from "./pages/Porsche";
 import MercedesBenz from "./pages/MercedesBenz";
 import LotusCars from "./pages/LotusCars";
@@ -26,16 +25,16 @@ const Dashboard = () => {
         <div className="col-12 col-md-9">
           <Routes>
             <Route path="/" element={<AstonMartin />} />
-            <Route path="astonmartin" element={<AstonMartin />} />
-            <Route path="bentley" element={<Bentley />} />
-            <Route path="bugatti" element={<Bugatti />} />
-            <Route path="ferrari" element={<Ferrari />} />
-            <Route path="lamborghini" element={<Lamborghini />} />
-            <Route path="lotuscars" element={<LotusCars />} />
-            <Route path="maserati" element={<Maserati />} />
-            <Route path="mercedesbenz" element={<MercedesBenz />} />
-            <Route path="porsche" element={<Porsche />} />
-            <Route path="rollsroyce" element={<RollsRoyce />} />
+            <Route path="/astonmartin" element={<AstonMartin />} />
+            <Route path="/bentley" element={<Bentley />} />
+            <Route path="/bugatti" element={<Bugatti />} />
+            <Route path="/ferrari" element={<Ferrari />} />
+            <Route path="/lamborghini" element={<Lamborghini />} />
+            <Route path="/lotuscars" element={<LotusCars />} />
+            <Route path="/maserati" element={<Maserati />} />
+            <Route path="/mercedesbenz" element={<MercedesBenz />} />
+            <Route path="/porsche" element={<Porsche />} />
+            <Route path="/rollsroyce" element={<RollsRoyce />} />
           </Routes>
         </div>
       </div>

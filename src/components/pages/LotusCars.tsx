@@ -7,7 +7,7 @@ function LotusCars() {
       <Card>
         <div className="lotuscars"></div>
         <CardBody>
-          <CardTitle tag="h5">Lotus car</CardTitle>
+          <CardTitle tag="h2">Lotus car</CardTitle>
           <CardText>
             *Lotus est un constructeur automobile anglais de voitures de luxe
             sportives et de course. Il est assez rare de voir une Lotus dans la

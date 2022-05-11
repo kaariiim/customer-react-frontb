@@ -7,7 +7,7 @@ function Maserati() {
       <Card>
         <div className="maserati"></div>
         <CardBody>
-          <CardTitle tag="h5">-Maserati car-</CardTitle>
+          <CardTitle tag="h2">-Maserati car-</CardTitle>
           <CardText>
             *Ce constructeur automobile italien est spécialisé dans les voitures
             de luxe, de sport et de courses. La marque fut fondée par les frères

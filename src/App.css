@@ -1,6 +1,6 @@
 .sidebar {
-  background-color: black;
-  color: plum;
+  background-color: rgba(112, 111, 111, 0.644);
+  color: rgb(2, 5, 150);
   height: 100%;
   width: 100%;
   font-size: x-large;
@@ -8,6 +8,10 @@
   
 }
 
+h2{
+  color:rgb(2, 5, 150);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 body {
   background-color: rgba(214, 158, 74, 0.541);
 }

@@ -7,7 +7,7 @@ function Bentley() {
       <Card>
         <div className="bentley"></div>
         <CardBody>
-          <CardTitle tag="h5">Bentley car</CardTitle>
+          <CardTitle tag="h2">Bentley car</CardTitle>
           <CardText>
             *C’est maintenant que l’on va rentrer dans le vif du sujet… Bentley,
             crée en 1919 à Crklewood, au Nord de Londres est devenue l’un des

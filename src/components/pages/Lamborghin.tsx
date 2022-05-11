@@ -7,7 +7,7 @@ function Lamborghini() {
       <Card>
         <div className="lamborghini"></div>
         <CardBody>
-          <CardTitle tag="h5">Lamborghini car</CardTitle>
+          <CardTitle tag="h2">Lamborghini car</CardTitle>
           <CardText>
             *Vous avez entendu de l’orage alors que le ciel est dégagé ? Ne vous
             posez plus de question, c’est surement une Lamborghini Aventador au

@@ -7,7 +7,7 @@ function Ferrari() {
       <Card>
         <div className="ferrari"></div>
         <CardBody>
-          <CardTitle tag="h5">Ferrari car</CardTitle>
+          <CardTitle tag="h2">Ferrari car</CardTitle>
           <CardText>
             *Ferrari, probablement la marque automobile la plus populaire et
             reconnue du monde, est fondée en 1929 par Enzo Ferrari. Enzo était

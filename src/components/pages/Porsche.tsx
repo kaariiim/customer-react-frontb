@@ -7,7 +7,7 @@ function Porsche() {
       <Card>
         <div className="porsche"></div>
         <CardBody>
-          <CardTitle tag="h5">Porsche Car</CardTitle>
+          <CardTitle tag="h2">Porsche Car</CardTitle>
           <CardText>
             *Comment faire un classement des marques les plus luxueuses sans y
             inclure la mondialement connue Porsche. La marque allemande offre

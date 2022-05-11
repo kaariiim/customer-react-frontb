@@ -7,7 +7,7 @@ function AstonMartin() {
       <Card>
         <div className="astonmartin"></div>
         <CardBody>
-          <CardTitle tag="h5">Aston Martin</CardTitle>
+          <CardTitle tag="h2">Aston Martin</CardTitle>
           <CardText>
             *Comment ne pas connaitre cette marque Britannique largement mise en
             avant dans les films de James Bond. En 1913, le pilote Lionel Martin
