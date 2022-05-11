@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   Button,
   Col,
@@ -10,6 +11,17 @@ import {
 } from "reactstrap";
 import Forget from "./ForgetPassword";
 export default function Login() {
+  const [email, setEmail] = useState(""); 
+  const [password, setPassword] = useState("");
+  
+  if (localStorage.getItem('email') != "") {
+    document.location.href ="/dashboard"
+  }
+
+  const makeLogin = () => { 
+    localStorage.setItem("email", email); 
+    document.location.href ="/dashboard" 
+  }
   return (
     <Container fluid>
       <Row>
@@ -27,6 +39,7 @@ export default function Login() {
                 name="email"
                 placeholder="Email"
                 type="email"
+                onChange={(e)=>setEmail(e.target.value)}
               />
               <Label for="exampleEmail">Email</Label>
             </FormGroup>{" "}
@@ -36,10 +49,11 @@ export default function Login() {
                 name="password"
                 placeholder="Password"
                 type="password"
+                onChange={(e)=>setPassword(e.target.value)}
               />
               <Label for="examplePassword">Password</Label>
             </FormGroup>{" "}
-            <Button>Sign in</Button>
+            <Button onClick={()=>makeLogin()}>Sign in</Button>
             <br></br>
             <span onClick={Forget}>Forget Password</span>
           </Form>

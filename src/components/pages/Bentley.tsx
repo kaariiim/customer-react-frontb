@@ -5,7 +5,7 @@ function Bentley() {
   return (
     <div>
       <Card>
-        <div className="bentley"></div>
+        <img src="/img/Aston-Martin-car-.avif" />
         <CardBody>
           <CardTitle tag="h2">Bentley car</CardTitle>
           <CardText>

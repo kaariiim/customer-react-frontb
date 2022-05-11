@@ -1,4 +1,5 @@
 import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -7,10 +8,11 @@ const Sidebar = () => {
         <h1>The Top Cars</h1>
         <Menu iconShape="square">
           <MenuItem>
-            <a href="astonmartin">Aston Martin</a>
+            {/* <a href="astonmartin">Aston Martin</a> */}
+            <Link to="/astonmartin">Aston martin</Link>
           </MenuItem>
           <MenuItem>
-            <a href="bentley">Bentley</a>
+          <Link to="/bentley">Bentley</Link> 
           </MenuItem>
           <MenuItem>
             <a href="bugatti">Bugatti</a>

@@ -31,8 +31,9 @@ body {
 .astonmartin {
   background: 
   url("../public/img/Aston-Martin-car-.avif") no-repeat;
-  height: 690px;
+ 
   width: 100%;
+  object-fit: cover;
 }
 .bentley {
   background: 
@@ -77,10 +78,12 @@ body {
   width: 100%;
 }
 .porsche {
-  background: 
-  url("../public/img/Picture-porsche.jpeg") no-repeat;
-  height: 590px;
-  width: 1090px;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.pro-menu-item {
+  list-style: none !important;
 }
 .Rollsroyce {
   background: 

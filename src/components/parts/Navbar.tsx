@@ -1,3 +1,5 @@
+import { faLongArrowAltUp } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 import {
   Collapse,
   DropdownItem,
@@ -13,6 +15,10 @@ import {
 } from "reactstrap";
 
 export default function Navbard() {
+  const logout = () => {
+    localStorage.setItem('email', ""); 
+    document.location.href = "/"
+  }
   return (
     <div>
       <div>
@@ -49,7 +55,16 @@ export default function Navbard() {
                     </DropdownMenu>
                   </UncontrolledDropdown>
                 </Nav>
-                <DropdownToggle>avatar</DropdownToggle>
+                { 
+                  (localStorage.getItem("email") !== "") ?
+                  <DropdownToggle>
+                     {localStorage.getItem("email") }
+
+                     <button onClick={()=> logout()}>logout</button>
+                </DropdownToggle>
+                  : 
+                  <Link to="/login">Login</Link>
+                }
               </Collapse>
             </Navbar>
           </div>

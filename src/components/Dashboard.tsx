@@ -24,9 +24,9 @@ const Dashboard = () => {
         </div>
         <div className="col-12 col-md-9">
           <Routes>
-            <Route path="/" element={<AstonMartin />} />
-            <Route path="/astonmartin" element={<AstonMartin />} />
-            <Route path="/bentley" element={<Bentley />} />
+            <Route path="/dashboard" element={<AstonMartin />} />
+            <Route path="/dashboard/astonmartin" element={<AstonMartin />} />
+            <Route path="/dashboard/bentley" element={<Bentley />} />
             <Route path="/bugatti" element={<Bugatti />} />
             <Route path="/ferrari" element={<Ferrari />} />
             <Route path="/lamborghini" element={<Lamborghini />} />

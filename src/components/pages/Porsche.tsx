@@ -5,7 +5,7 @@ function Porsche() {
   return (
     <div>
       <Card>
-        <div className="porsche"></div>
+        <img src="/img/Picture-porsche.jpeg" className="porsche" />
         <CardBody>
           <CardTitle tag="h2">Porsche Car</CardTitle>
           <CardText>
