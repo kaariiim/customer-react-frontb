@@ -1,16 +1,11 @@
 import React from "react";
-import { Card, CardBody, CardImg, CardText, CardTitle } from "reactstrap";
+import { Card, CardBody, CardText, CardTitle } from "reactstrap";
 
 function Lamborghini() {
   return (
-    <div className="lamborghini">
+    <div>
       <Card>
-        <CardImg
-          alt="image"
-          src="//public/img/lamborghini.avif"
-          top
-          width="100%"
-        />
+        <div className="lamborghini"></div>
         <CardBody>
           <CardTitle tag="h5">Lamborghini car</CardTitle>
           <CardText>

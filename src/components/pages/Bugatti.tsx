@@ -1,9 +1,9 @@
 import React from "react";
-import { Card, CardBody, CardImg, CardText, CardTitle } from "reactstrap";
+import { Card, CardBody, CardText, CardTitle } from "reactstrap";
 
 function Bugatti() {
   return (
-    <div className="bugatti">
+    <div>
       <Card>
         <div className="bugatti"></div>
         <CardBody>

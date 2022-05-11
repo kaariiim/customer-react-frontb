@@ -3,14 +3,9 @@ import { Card, CardBody, CardImg, CardText, CardTitle } from "reactstrap";
 
 function RollsRoyce() {
   return (
-    <div className="Rollsroyce">
+    <div>
       <Card>
-        <CardImg
-          alt="image"
-          src="//public/img/Rolls-Royce-car-.avif"
-          top
-          width="100%"
-        />
+        <div className="Rollsroyce"></div>
         <CardBody>
           <CardTitle tag="h5">Rolls-Royce car</CardTitle>
           <CardText>

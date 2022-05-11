@@ -1,16 +1,11 @@
 import React from "react";
-import { Card, CardBody, CardImg, CardText, CardTitle } from "reactstrap";
+import { Card, CardBody, CardText, CardTitle } from "reactstrap";
 
 function Porsche() {
   return (
-    <div className="porsche">
+    <div>
       <Card>
-        <CardImg
-          alt="Card image cap"
-          src="//public/img/Picture-porsche.jpeg"
-          top
-          width="100%"
-        />
+        <div className="porsche"></div>
         <CardBody>
           <CardTitle tag="h5">Porsche Car</CardTitle>
           <CardText>

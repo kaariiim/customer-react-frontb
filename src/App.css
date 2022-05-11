@@ -42,10 +42,28 @@ body {
   height: 490px;
   width: 100%;
 }
-.astonmartin {
+.ferrari {
   background: 
-  url("../public/img/Aston-Martin-car-.avif") no-repeat;
+  url("../public/img/Ferari-car.avif") no-repeat;
+  height: 590px;
+  width: 100%;
+}
+.lamborghini {
+  background: 
+  url("../public/img/lamborghini.avif") no-repeat;
   height: 690px;
+  width: 100%;
+}
+.lotuscars {
+  background: 
+  url("../public/img/Lotus-car-.avif") no-repeat;
+  height: 590px;
+  width: 100%;
+}
+.maserati {
+  background: 
+  url("../public/img/Maserati-car-.avif") no-repeat;
+  height: 590px;
   width: 100%;
 }
 .astonmartin {
@@ -54,33 +72,15 @@ body {
   height: 690px;
   width: 100%;
 }
-.astonmartin {
+.porsche {
   background: 
-  url("../public/img/Aston-Martin-car-.avif") no-repeat;
-  height: 690px;
-  width: 100%;
+  url("../public/img/Picture-porsche.jpeg") no-repeat;
+  height: 590px;
+  width: 1090px;
 }
-.astonmartin {
+.Rollsroyce {
   background: 
-  url("../public/img/Aston-Martin-car-.avif") no-repeat;
-  height: 690px;
-  width: 100%;
-}
-.astonmartin {
-  background: 
-  url("../public/img/Aston-Martin-car-.avif") no-repeat;
-  height: 690px;
-  width: 100%;
-}
-.astonmartin {
-  background: 
-  url("../public/img/Aston-Martin-car-.avif") no-repeat;
-  height: 690px;
-  width: 100%;
-}
-.astonmartin {
-  background: 
-  url("../public/img/Aston-Martin-car-.avif") no-repeat;
-  height: 690px;
+  url("../public/img/Rolls-Royce-car-.avif") no-repeat;
+  height: 590px;
   width: 100%;
 }
