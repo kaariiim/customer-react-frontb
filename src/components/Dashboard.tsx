@@ -1,69 +1,45 @@
-import { useContext } from "react";
-import { FormattedMessage } from "react-intl";
-import { Link, Route, Routes, useNavigate } from "react-router-dom";
-import {
-  Collapse,
-  Container,
-  DropdownItem,
-  DropdownMenu,
-  Nav,
-  Navbar,
-  NavbarToggler,
-  UncontrolledDropdown,
-} from "reactstrap";
+import Sidebar from "./parts/Sidebar";
+import Navbard from "./parts/Navbar";
+import { Route, Routes } from "react-router-dom";
 import Users from "./pages/users/Users";
-import { UserContext } from "../context/user-context";
-import Customers from "./pages/customers/Customers";
+import Porsche from "./pages/Porsche";
+import MercedesBenz from "./pages/MercedesBenz";
+import LotusCars from "./pages/LotusCars";
+import Maserati from "./pages/Maserati";
+import AstonMartin from "./pages/AstonMartin";
+import Bentley from "./pages/Bentley";
+import Bugatti from "./pages/Bugatti";
+import Ferrari from "./pages/Ferrari";
+import Lamborghini from "./pages/Lamborghin";
+import RollsRoyce from "./pages/RollsRoyce";
 
-function Dashboard(props: any) {
-  const navigate = useNavigate();
-  const { user, isLoading } = useContext(UserContext);
-
-  return user && !isLoading ? (
-    <>
-      <Navbar color="danger" expand="md" light>
-        <NavbarToggler onClick={function noRefCheck() {}} />
-        <Collapse navbar>
-          <Nav className="me-auto" navbar></Nav>
-          <Nav>
-            <UncontrolledDropdown inNavbar nav>
-              <DropdownMenu style={{ right: 0 }}>
-                <DropdownItem disabled>
-                  {user.firstName} {user.lastName}
-                  <br />
-                </DropdownItem>
-                <DropdownItem>
-                  <Link to="/profil">
-                    <FormattedMessage id="profil" />
-                  </Link>
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem
-                  onClick={() => {
-                    props.goToLogin();
-                    navigate("/");
-                  }}
-                >
-                  <FormattedMessage id="logout" />
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-          </Nav>
-        </Collapse>
-      </Navbar>
-      <Container fluid>
-        <main>
+const Dashboard = () => {
+  return (
+    <div className="container fluid">
+      <div className="row g-0">
+        <div className="col-12 col-md-12 a1">
+          <Navbard />
+        </div>
+        <div className="col-12 col-md-3">
+          <Sidebar />
+        </div>
+        <div className="col-12 col-md-9">
           <Routes>
-            <Route path="" element={<Users />} />
-            <Route path="users" element={<Users />} />
-            <Route path="trainings" element={<Customers />} />
+            <Route path="/" element={<AstonMartin />} />
+            <Route path="astonmartin" element={<AstonMartin />} />
+            <Route path="bentley" element={<Bentley />} />
+            <Route path="bugatti" element={<Bugatti />} />
+            <Route path="ferrari" element={<Ferrari />} />
+            <Route path="lamborghini" element={<Lamborghini />} />
+            <Route path="lotuscars" element={<LotusCars />} />
+            <Route path="maserati" element={<Maserati />} />
+            <Route path="mercedesbenz" element={<MercedesBenz />} />
+            <Route path="porsche" element={<Porsche />} />
+            <Route path="rollsroyce" element={<RollsRoyce />} />
           </Routes>
-        </main>
-      </Container>
-    </>
-  ) : (
-    <>Loading...</>
+        </div>
+      </div>
+    </div>
   );
-}
-
+};
 export default Dashboard;
