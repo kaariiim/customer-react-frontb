@@ -5,7 +5,7 @@ function MercedesBenz() {
   return (
     <div>
       <Card>
-        <div className="mercedesbenz"></div>
+
         <CardBody>
           <CardTitle tag="h2">Mercedes Benz car</CardTitle>
           <CardText>
