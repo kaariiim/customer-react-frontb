@@ -1,4 +1,90 @@
-.login {
+.sidebar {
+  background-color: rgba(112, 111, 111, 0.644);
+  color: rgb(2, 5, 150);
   height: 100%;
+  width: 100%;
+  font-size: x-large;
+  padding: 20px;
+  
+}
+
+h2{
+  color:rgb(2, 5, 150);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body {
+  background-color: rgba(214, 158, 74, 0.541);
+}
+.screen,
+.login {
+  height: 100vh;
+  background-color: plum;
+}
+
+.screen {
+  background: linear-gradient(to bottom, #d439b385, #1d2571aa),
+    url("../public/img/kk.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.astonmartin {
+  background: 
+  url("../public/img/Aston-Martin-car-.avif") no-repeat;
+  height: 690px;
+  width: 100%;
+}
+.bentley {
+  background: 
+  url("../public/img/Bentley-car.avif") no-repeat;
+  height: 490px;
+  width: 100%;
+}
+.bugatti {
+  background: 
+  url("../public/img/Bugatti.avif") no-repeat;
+  height: 490px;
+  width: 100%;
+}
+.ferrari {
+  background: 
+  url("../public/img/Ferari-car.avif") no-repeat;
+  height: 590px;
+  width: 100%;
+}
+.lamborghini {
+  background: 
+  url("../public/img/lamborghini.avif") no-repeat;
+  height: 690px;
+  width: 100%;
+}
+.lotuscars {
+  background: 
+  url("../public/img/Lotus-car-.avif") no-repeat;
+  height: 590px;
+  width: 100%;
+}
+.maserati {
+  background: 
+  url("../public/img/Maserati-car-.avif") no-repeat;
+  height: 590px;
+  width: 100%;
+}
+.mercedesbenz {
+  background: 
+  url("../public/img/mercedes.avif") no-repeat;
+  height: 690px;
+  width: 100%;
+}
+.porsche {
+  background: 
+  url("../public/img/Picture-porsche.jpeg") no-repeat;
+  height: 590px;
+  width: 1090px;
+}
+.Rollsroyce {
+  background: 
+  url("../public/img/Rolls-Royce-car-.avif") no-repeat;
+  height: 590px;
   width: 100%;
 }
